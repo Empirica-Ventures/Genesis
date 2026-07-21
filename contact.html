@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Genesis Education</title>
+  <meta name="description" content="Get in touch with Genesis Education. Partner with us, enrol, or ask anything about our programs. Based in Karachi, serving Pakistan.">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ── NAVIGATION ── -->
+<header class="site-header">
+  <nav class="nav" aria-label="Main navigation">
+    <a class="nav__logo" href="index.html"><img src="assets/images/logo.png" alt="Genesis Education" class="nav__logo-img"></a>
+    <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="case-studies.html">Case Studies</a></li>
+      <li><a href="why-pbl.html">Why PBL?</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="terms.html">Terms &amp; Conditions</a></li>
+    </ul>
+    <a class="btn btn--coral nav__cta" href="contact.html" aria-current="page">Talk to Us</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ── HERO / GET IN TOUCH ── -->
+  <div class="contact-hero">
+    <span class="contact-hero__ring contact-hero__ring--top" aria-hidden="true"></span>
+    <span class="contact-hero__ring contact-hero__ring--bottom" aria-hidden="true"></span>
+    <div class="contact-hero__left">
+      <div style="display:inline-flex;align-items:center;background:var(--teal);color:var(--white);font-size:1rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:0.375rem 1.25rem;border-radius:var(--radius-pill);margin-bottom:2rem;">
+        GET IN TOUCH
+      </div>
+      <h1 style="color:var(--white);font-size:clamp(2.25rem,4.5vw,3.4375rem);margin-bottom:1.5rem;">
+        Let's start a <span class="text-teal">conversation</span>
+      </h1>
+      <p style="color:rgba(255,255,255,0.6);font-size:1.125rem;font-weight:900;line-height:1.7;max-width:550px;">
+        Whether you are a school looking to partner, a parent exploring enrollment, or just curious about what we do — we would love to hear from you.
+      </p>
+    </div>
+    <div class="contact-hero__right">
+      <p class="contact-reach-label">REACH US DIRECTLY</p>
+      <div class="contact-info-item">
+        <p class="contact-info-item__label">Email</p>
+        <p class="contact-info-item__value"><a href="mailto:hello@genesis.edu">hello@genesis.edu</a></p>
+      </div>
+      <div class="contact-info-item">
+        <p class="contact-info-item__label">📱 WhatsApp</p>
+        <p class="contact-info-item__value">
+          <a href="https://wa.me/923072162553" target="_blank" rel="noopener">0307-2162553</a>
+        </p>
+      </div>
+      <div class="contact-info-item">
+        <p class="contact-info-item__label">📍 Location</p>
+        <p class="contact-info-item__value">Karachi, Pakistan</p>
+      </div>
+      <div class="contact-info-item">
+        <p class="contact-info-item__label">🕐 Response time</p>
+        <p class="contact-info-item__value">Within 24 hours</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── CONTACT FORM ── -->
+  <section class="contact-form-section">
+    <div class="contact-form-wrap">
+      <span class="overline overline--deep-teal">SEND US A MESSAGE</span>
+      <h2>What brings you here?</h2>
+      <p>Fill in the form and we'll get back to you within 24 hours. Or reach us directly via WhatsApp for a faster response.</p>
+
+      <!-- Replace REPLACE_WITH_YOUR_FORM_ID after signing up at formspree.io -->
+      <form action="https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID" method="POST">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us how we can help..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn--coral btn--lg" style="width:100%;">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ── OTHER WAYS TO CONNECT ── -->
+  <section class="connect-section">
+    <span class="overline overline--deep-teal">OTHER WAYS TO CONNECT</span>
+    <h2>Reach us directly</h2>
+    <div class="connect-options">
+      <div class="connect-card">
+        <h3>📞 Call Us</h3>
+        <p>Available Mon – Fri, 9 AM to 6 PM</p>
+        <a href="tel:+923072162553" class="btn btn--charcoal">0307-2162553</a>
+      </div>
+      <div class="connect-card">
+        <h3>💬 WhatsApp</h3>
+        <p>Quick questions, fast answers — message us on WhatsApp</p>
+        <a href="https://wa.me/923072162553" target="_blank" rel="noopener" class="btn btn--deep-teal">WhatsApp Us</a>
+      </div>
+      <div class="connect-card">
+        <h3>📧 Email</h3>
+        <p>For detailed inquiries and partnership proposals</p>
+        <a href="mailto:hello@genesis.edu" class="btn btn--teal">hello@genesis.edu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FIND US ── -->
+  <div class="find-us">
+    <div class="find-us__left">
+      <span class="overline overline--teal">FIND US</span>
+      <h2 style="color:var(--off-white);">Based in Karachi,<br>serving Pakistan.</h2>
+      <div class="find-us-details">
+        <div class="find-us-detail">
+          <p class="find-us-detail__label">Address</p>
+          <p class="find-us-detail__value">204A Shahrah-e-Faisal, SMCHS, Karachi</p>
+        </div>
+        <div class="find-us-detail">
+          <p class="find-us-detail__label">Email</p>
+          <p class="find-us-detail__value"><a href="mailto:hello@genesis.edu">hello@genesis.edu</a></p>
+        </div>
+        <div class="find-us-detail">
+          <p class="find-us-detail__label">Phone</p>
+          <p class="find-us-detail__value"><a href="tel:+923072162553">0307-2162553</a></p>
+        </div>
+        <div class="find-us-detail">
+          <p class="find-us-detail__label">Hours</p>
+          <p class="find-us-detail__value">Mon – Friday, 9 AM – 6 PM</p>
+        </div>
+      </div>
+    </div>
+    <div class="find-us__right">
+      <div class="map-rings" aria-hidden="true">
+        <span class="map-ring map-ring--outer"></span>
+        <span class="map-ring map-ring--inner"></span>
+        <span class="map-ring map-ring--center-bg"></span>
+        <span class="map-ring map-ring--center"></span>
+      </div>
+      <p class="map-label">Karachi, Pakistan</p>
+    </div>
+  </div>
+
+</main>
+
+<!-- ── FOOTER ── -->
+<footer class="footer">
+  <div class="footer__stripe">
+    <span class="footer__stripe-teal"></span>
+    <span class="footer__stripe-coral"></span>
+    <span class="footer__stripe-green"></span>
+  </div>
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <strong>Genesis</strong>
+      <p>Where learning meets purpose.</p>
+    </div>
+    <div class="footer__col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="education-solutions.html">Education Solutions</a></li>
+        <li><a href="case-studies.html">Case Studies</a></li>
+        <li><a href="why-pbl.html">Why PBL?</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="terms.html">Terms &amp; Conditions</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4>Contact Us</h4>
+      <p>hello@genesis.edu</p>
+      <p><a href="tel:+923072162553">0307-2162553</a></p>
+      <p>204A Shahrah-e-Faisal, SMCHS, Karachi</p>
+    </div>
+    <div class="footer__col">
+      <h4>Get Started</h4>
+      <p>Ready to transform learning?</p>
+      <a href="contact.html" class="btn btn--coral">Book A Consultation</a>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <hr>
+    <p>© Genesis Academy of Excellence. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
