@@ -1,7 +1,14 @@
 {
-  "headers": [
+  "redirects": [
     {
       "source": "/assets/files/business-card.pdf",
+      "destination": "/assets/files/Structured%20PBL%20by%20Genesis%20Education%20Solutions.pdf",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/files/Structured PBL by Genesis Education Solutions.pdf",
       "headers": [
         {
           "key": "Content-Disposition",
